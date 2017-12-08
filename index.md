@@ -1,8 +1,32 @@
 # Gigigo Android MX Guidelines
 Guidelines, recommendations, code styles and additional rules for developing new Android MX components.
 
-# 1. Project guidelines
+# 1. Java doc
 
+## 1.1 File header template
+
+You must overwrite the ${USER} variable in the template file with the full author name
+
+Go to __Settings__ -> __File and Code Templates__ -> __Includes__ -> __File Header__ prepend the #set() function call.
+
+Example:
+
+![Alt Text](assets/file-header.png "file header")
+
+__Template__
+
+```java
+#set( $USER = "your name" )
+/**
+ * Defines ...
+ * 
+ * @author ${USER} - ${MONTH_NAME_FULL} ${DAY}, ${YEAR}
+ * @version 0.0.1
+ * @since 0.0.1
+ */
+
+```
+# 1. Project guidelines
 
 # License
 ```
